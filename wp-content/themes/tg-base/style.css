@@ -1,0 +1,24 @@
+/*   
+Theme Name: TG Base
+Theme URI: http://www.telegraphicsinc.com/using-wordpress-templates
+Description: Custom responsive website design
+Author: Telegraphics, Inc.
+Author URI: http://www.telegraphicsinc.com/
+Version: 1.0
+Tags: custom, tg, sans-options
+.
+Coding & Development � Telegraphics, Inc. Revised 12/01
+.
+*/
+
+.margin-top-bottom-10 {
+	margin: 10px 0px;
+}
+
+.margin-top-bottom-20 {
+	margin: 20px 0px;
+}
+
+.margin-top-bottom-50 {
+	margin: 50px 0px;
+}
