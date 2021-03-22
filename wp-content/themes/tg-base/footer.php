@@ -1,16 +1,16 @@
 		<!-- ==============================================
 		CONTACT
-		=============================================== -->	
+		=============================================== -->
 		<section id="contact" class="dark-bg light-typo padding-top">
 			<div class="container">
-				<?=do_shortcode('[gravityform id="7" name="Get a Quote"]');?>	
+				<?//= do_shortcode('[gravityform id="7" name="Get a Quote"]'); ?>
 			</div>
 		</section>
-		
+
 		<!-- ==============================================
 		FOOTER
-		=============================================== -->	
-		
+		=============================================== -->
+
 		<footer id="main-footer" class="dark-bg light-typo">
 			<div class="container">
 				<hr>
@@ -29,21 +29,22 @@
 						<div class="grs" itemscope itemtype="http://schema.org/Organization">
 							<span itemprop="name">Telegraphics, Inc.</span><br />
 							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-									<span itemprop="streetAddress">9703 Cary Ave</span><br />
-									<span itemprop="addressLocality">Schiller Park</span>, <span itemprop="addressRegion">IL</span> <span itemprop="postalCode">60176</span>
+								<span itemprop="streetAddress">9703 Cary Ave</span><br />
+								<span itemprop="addressLocality">Schiller Park</span>, <span itemprop="addressRegion">IL</span> <span itemprop="postalCode">60176</span>
 							</div>
 							<a itemprop="telephone" href="tel:8478349327">847-834-9327</a><br />
 							<a itemprop="email" href="mailto:info@telegraphicsinc.com">info@telegraphicsinc.com</a><br />
 						</div>
-						<p id="copyright">&copy;<?=date('Y',time())?> Telegraphics, Inc. All Rights Reserved. <a href="<?=bloginfo('url')?>/privacy-policy">Privacy Policy</a></p>
+						<p id="copyright">&copy;<?= date('Y', time()) ?> Telegraphics, Inc. All Rights Reserved. <a href="<?= bloginfo('url') ?>/privacy-policy">Privacy Policy</a></p>
 					</div>
 				</div>
 			</div>
 		</footer>
-		
-	<?php include(get_template_directory().'/includes/scripts.php'); ?>
-	<?php wp_footer(); ?>
-	
 
-</body>
-</html>
+		<?php include(get_template_directory() . '/includes/scripts.php'); ?>
+		<?php wp_footer(); ?>
+
+
+		</body>
+
+		</html>
